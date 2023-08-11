@@ -1,11 +1,12 @@
-export function LandingFooter({firstAncor,SecondAncor}){
+export function LandingFooter({firstAncor,SecondAncor,title}){
     return(
-        <footer className='flex flex-col flex-grow justify-end pb-24'>
-                    <div className='flex gap-x-4 mx-auto'>
-                        <a className='text-gray-600 text-center  px-20 rounded py-3 font-medium bg-gray-300'
+        <footer className='flex flex-col flex-grow justify-end pb-20'>
+                    <div className='flex gap-x-5 mx-auto justify-center items-center [&&>a]:px-20 [&&>a]:py-2'>
+                        <a className={`text-center rounded font-medium text-gray-700 ${title!=='Accesories'?' bg-gray-50/50':'bg-white'}`}
                            href='#'>{firstAncor}</a>
-                        <a className='text-white text-center border-gray-900  px-20 rounded py-3 font-medium bg-gray-700 backdrop-opacity-10 '
-                           href='#'>{SecondAncor}</a>
+                           {title!=='Accesories'?
+                           <a className='text-white text-center border-gray-900   rounded font-medium bg-gray-950/50 backdrop-opacity-10 '
+                           href='#'>{SecondAncor}</a>:''}
                     </div>
         </footer>
     )

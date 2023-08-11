@@ -1,11 +1,12 @@
 import './App.css'
-import ModelX from './img/Model X.avif'
-import ModelY from './img/Model Y.avif'
-import Model3 from  './img/Model 3.avif'
-import ModelS from './img/Model S.avif'
-import SolarPanels from './img/SolarPanels.avif'
-import SolarRoof from './img/SolarRoof.avif'
-import Powerwall  from  './img/Powerwall.avif'
+import ModelX from './img/Landing-Img/Model X.avif'
+import ModelY from './img/Landing-Img/Model Y.avif'
+import Model3 from  './img/Landing-Img/Model 3.avif'
+import ModelS from './img/Landing-Img/Model S.avif'
+import SolarPanels from './img/Landing-Img/SolarPanels.avif'
+import SolarRoof from './img/Landing-Img/SolarRoof.avif'
+import Powerwall  from  './img/Landing-Img/Powerwall.avif'
+import Accesories from './img/Landing-Img/Accesories.avif'
 import {LandingHeader} from "./Components/landing-header.jsx";
 import {LandingSection} from "./Components/LandingSection.jsx";
 import {LandingInit} from "./Components/LandingInit.jsx";
@@ -29,6 +30,8 @@ function App() {
                             img={SolarRoof} firstAncor={`Order Now`} SecondAncor={`Learn More`}/>
             <LandingSection title='Powerwall' subtitle=''
                             img={Powerwall} firstAncor={`Order Now`} SecondAncor={`Learn More`}/>
+            <LandingSection title='Accesories' subtitle=''
+                            img={Accesories} firstAncor={`Shop Now`} />
         </main>
     </>)
 }
