@@ -4,7 +4,8 @@ import { LandingFooter } from "./LandingFooter";
 export function LandingSection({title, subtitle, img,firstAncor,SecondAncor}) {
     return (
         <div className='snap-center'>
-            <section className='h-screen w-screen text-center relative overflow-hidden '>
+            <section className='h-screen w-screen text-center relative overflow-hidden landing-section'
+            headercolor='black'>
                 <div className='h-full flex flex-col'>
                     <header>
                         <h2 className='pt-20 text-5xl text-black pb-2'>{title}</h2>

@@ -1,0 +1,71 @@
+{
+    "Vehicles":[
+        {
+            "title":"Model S",
+            "img":"src/img/Menu-Img/MenuModelS.avif"
+        },
+        {
+            "title":"Model 3",
+            "img":"src/img/Menu-Img/MenuModel3.avif"
+        },
+        {
+            "title":"Model X",
+            "img":"src/img/Menu-Img/MenuModelX.avif"
+        },
+        {
+            "title":"Model Y",
+            "img":"src/img/Menu-Img/MenuModelY.avif"
+        }
+    ],
+    "Charging":[
+        {
+            "title":"Charging",
+            "img":"src/img/Menu-Img/Charging/MenuCharging.avif"
+        },
+        {
+            "title":"Home Charging",
+            "img":"src/img/Menu-Img/Shop/MenuShopCharging.avif"
+         },
+        {
+            "title":"Supercharging",
+            "img":"src/img/Menu-Img/Charging/MenuSupercharging.avif"
+        }
+    ],
+    "Energy":[
+        {
+            "title":"Solar Panels",
+            "img":"src/img/Menu-Img/Energy/MenuSolarPanels.avif"
+        },
+        {
+            "title":"Solar Roof",
+            "img":"src/img/Menu-Img/Energy/MenuSolarRoof.avif"
+        },
+        {
+            "title":"Powerwall",
+            "img":"src/img/Menu-Img/Energy/MenuPowerwall.avif"
+        },
+        {
+            "title":"Megapack",
+            "img":"src/img/Menu-Img/Energy/MenuMegapack.avif"
+        }
+    ],
+    "Shop":[
+        {
+            "title":"Charging",
+            "img":"src/img/Menu-Img/Shop/MenuShopCharging.avif"
+        },
+        {
+            "title":"Vehicle Accessories",
+            "img":"src/img/Menu-Img/Shop/MenuShopVehicleAccessories.avif"
+        },
+        {
+            "title":"Apparel",
+            "img":"src/img/Menu-Img/Shop/MenuShopApparel.avif"
+        },
+        
+        {
+            "title":"Lifestyle",
+            "img":"src/img/Menu-Img/Shop/MenuShopLifestyle.avif"
+        }
+    ]
+}
