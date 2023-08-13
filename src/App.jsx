@@ -10,11 +10,7 @@ import Accesories from './img/Landing-Img/Accesories.avif'
 import {LandingHeader} from "./Components/landing-header.jsx";
 import {LandingSection} from "./Components/LandingSection.jsx";
 import {LandingInit} from "./Components/LandingInit.jsx";
-import { VehiclesMenu } from './Components/Menus/VehiclesMenu'
-import { EnergyMenus } from './Components/Menus/EnergyMenus'
-import { ShopMenu } from './Components/Menus/ShopMenu'
-import { ChargingMenu } from './Components/Menus/ChargingMenu'
-import { DiscoverMenu } from './Components/Menus/DescoverMenu'
+
 
 
 function App() {
@@ -38,12 +34,7 @@ function App() {
                             img={Powerwall} firstAncor={`Order Now`} SecondAncor={`Learn More`}/>
             <LandingSection title='Accesories' subtitle=''
                             img={Accesories} firstAncor={`Shop Now`} SecondAncor={`Learn More`}/>
-                            <VehiclesMenu/>
-                            <EnergyMenus/>
-                            <ChargingMenu/>
-                            <DiscoverMenu/>
-                            <ShopMenu/>
-        </main>
+                                    </main>
     </>)
 }
 

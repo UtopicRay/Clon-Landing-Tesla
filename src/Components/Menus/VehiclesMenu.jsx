@@ -4,7 +4,7 @@ export function VehiclesMenu(){
     const options=Option['Vehicles']
 return(
     <div className='snap-center'>
-        <section className='flex justify-center items-center divide-x divide-solid'>
+        <section className='flex justify-center items-center divide-x divide-solid relative:hover bg-white pt-20'>
             <LandingMenu options={options}/>
             <div className='px-8'>           
                 <ul className='flex flex-col gap-y-3'>
